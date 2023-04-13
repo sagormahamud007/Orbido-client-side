@@ -1,0 +1,31 @@
+.bannerStatus{
+font-family: 'Poppins';
+font-weight: 700;
+font-size: 70px;
+line-height: 82px;
+text-align: center;
+text-transform: uppercase;
+background: linear-gradient(90deg, #1FD895 10.14%, #1CD2A2 10.15%, #17C7C0 10.16%, #12BADF 49.71%, #C5018E 84.62%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+border: 1px solid #000000;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+@media only screen and (max-width: 800px) {
+    .bannerStatus{
+        font-family: 'Poppins';
+        font-weight: 700;
+        font-size: 60px;
+        line-height: 72px;
+        text-align: center;
+        text-transform: uppercase;
+        background: linear-gradient(90deg, #1FD895 10.14%, #1CD2A2 10.15%, #17C7C0 10.16%, #12BADF 49.71%, #C5018E 84.62%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        border: 1px solid #000000;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        }
+  }
