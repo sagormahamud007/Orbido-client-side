@@ -11,7 +11,7 @@ function App() {
     AOS.refresh()
   }, [])
   return (
-    <div className='App'>
+    <div className='App max-w-[1440px] mx-auto'>
   <RouterProvider router={router}></RouterProvider>
     </div>
   );

@@ -5,14 +5,15 @@ import { Link } from 'react-router-dom';
 const Footer = () => {
     return (
        <div>
-         <div className=' mt-16 grid lg:grid-cols-4 mx-36 text-white'>
-            <div>
+         <div className='grid lg:grid-cols-4 mt-16 md:grid-cols-2 sm:grid-cols-2
+          lg:mx-36 text-white'>
+            
                 <div >
                     <div className='flex items-center'><img src={logo}></img> 
                     <h2>OR<span className='text-yellow-600'>BIDO</span></h2></div>
                     <p className='font-normal text-base	text-slate-300'>A new way to make the payments <br/> easy, reliable and secure.</p>
                 </div>
-            </div>
+            
             <div>
                 <h3 className='mb-2'>Usefull Links</h3>
                 <ul className='text-xs font-normal'>
@@ -42,9 +43,9 @@ const Footer = () => {
             </div>
         </div>
         <hr className='mt-5 mb-3 w-10/12 m-auto bg-slate-400'></hr>
-       <div className='lg:flex justify-between lg:mx-28'>
+       <div className='lg:flex justify-between lg:mx-28 text-center'>
        <p className='text-white mb-3'>Copyright @ 2023 Orbido. All Rights Reserved. </p>
-<div className='text-white flex'>
+    <div className='text-white flex mb-4'>
     <Link to={"https://www.instagram.com/"}><FaInstagram className='mr-5'/></Link>
   
     <Link to={"https://web.facebook.com"}><FaFacebook className='mr-5'></FaFacebook></Link>

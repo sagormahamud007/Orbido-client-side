@@ -39,7 +39,7 @@ const PaymentSection = () => {
     ]
     return (
         <div className='grid md:grid-cols-1 lg:grid-cols-2 py-12 lg:mx-36  '>
-            <div className='text-white styles relative w-72 mb-5'>
+            <div className='text-white styles relative lg:w-72 md:mx-4 mb-5'>
                 <h2 className='py-6 ml-3 font-semibold text-xl	'>Last Transaction</h2>
                 {
                     Transactions.map(Transaction=><>
