@@ -39,7 +39,7 @@ const PaymentSection = () => {
     ]
     return (
         <div className='grid md:grid-cols-1 lg:grid-cols-2 py-12 lg:mx-36  '>
-            <div className='text-white styles relative w-72'>
+            <div className='text-white styles relative w-72 mb-5'>
                 <h2 className='py-6 ml-3 font-semibold text-xl	'>Last Transaction</h2>
                 {
                     Transactions.map(Transaction=><>
@@ -74,9 +74,9 @@ const PaymentSection = () => {
                     <button className=' style w-full mt-4 border '>Make Payment</button>
                 </div>
             </div>
-            <div className='w-50'>
-                <h2 className='font-semibold text-white text-5xl leading-snug	'>Easily control your <br/> billing & invoicing.</h2>
-                <p className='mt-6 text-slate-200'>Elit enim sed massa etiam. Mauris eu adipiscing <br/> ultrices ametodio aenean neque. Fusce ipsum orci <br/> rhoncus aliporttitor integer platea placerat.</p>
+            <div className='ml-4'>
+                <h2 className='font-semibold text-white text-2xl lg:text-5xl leading-snug md:px-3'>Easily control your <br/> billing & invoicing.</h2>
+                <p className='mt-6 text-slate-200'>Elit enim sed massa etiam. Mauris eu adipiscing  ultrices ametodio aenean neque. Fusce ipsum orci  rhoncus aliporttitor integer platea placerat.</p>
                 <div className='mt-5'>
                     <img src={vector1}></img>
                 </div>

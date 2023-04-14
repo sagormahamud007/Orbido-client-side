@@ -36,8 +36,8 @@ const BusinessMoney = () => {
        </div>
 
 
-        <p className='text-lg md:px-2 leading-normal mt-6 text-white'>With the right credit card, you can improve your financial life by building credit, earning rewards and saving money. But with hundreds of credit cards on the market.</p>
-        <button className="bg-gradient-to-r text-black h-16 rounded-xl	mt-16 from-sky-500 to-indigo-500 text-lg font-medium py-2 w-44">Get Started</button>
+        <p className='text-lg md:px-2 mb-4 leading-normal mt-6 text-white'>With the right credit card, you can improve your financial life by building credit, earning rewards and saving money. But with hundreds of credit cards on the market.</p>
+        <button className="bg-gradient-to-r mb-8 text-black h-16 rounded-xl	lg:mt-16 from-sky-500 to-indigo-500 text-lg font-medium py-2 w-44">Get Started</button>
         </div>
         <div>
 {

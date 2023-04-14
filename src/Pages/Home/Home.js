@@ -3,6 +3,7 @@ import Banner from '../../Components/Banner/Banner';
 import BusinessMoney from '../../Components/BusinssMoney/BusinessMoney'
 import PaymentSection from '../../Components/PaymentSection/PaymentSection';
 import CompanyName from '../../Components/CompanyName/CompanyName';
+import ServiceSection from '../../Components/ServiceSection/ServiceSection';
 
 const Home = () => {
     return (
@@ -11,6 +12,7 @@ const Home = () => {
             <BusinessMoney></BusinessMoney>
             <PaymentSection></PaymentSection>
             <CompanyName></CompanyName>
+            <ServiceSection></ServiceSection>
         </div>
     );
 };
