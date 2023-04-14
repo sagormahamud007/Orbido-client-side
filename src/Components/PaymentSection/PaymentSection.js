@@ -59,7 +59,7 @@ const PaymentSection = () => {
                     </div>
                     </>)
                 }
-                <div className='liner p-3 absolute top-0 -mt-40 lg:ml-48 border'>
+                <div data-aos="flip-left" className='liner p-3 absolute top-0 -mt-40 lg:ml-48 border'>
                     <div className='flex items-center'>
                         <img src={ellipse2}></img>
                     <div className='ml-3'>
@@ -74,7 +74,7 @@ const PaymentSection = () => {
                     <button className=' style w-full mt-4 border '>Make Payment</button>
                 </div>
             </div>
-            <div className='ml-4'>
+            <div data-aos="fade-right" className='ml-4'>
                 <h2 className='font-semibold text-white text-2xl lg:text-5xl leading-snug md:px-3'>Easily control your <br/> billing & invoicing.</h2>
                 <p className='mt-6 text-slate-200'>Elit enim sed massa etiam. Mauris eu adipiscing  ultrices ametodio aenean neque. Fusce ipsum orci  rhoncus aliporttitor integer platea placerat.</p>
                 <div className='mt-5'>

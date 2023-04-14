@@ -4,6 +4,7 @@ import BusinessMoney from '../../Components/BusinssMoney/BusinessMoney'
 import PaymentSection from '../../Components/PaymentSection/PaymentSection';
 import CompanyName from '../../Components/CompanyName/CompanyName';
 import ServiceSection from '../../Components/ServiceSection/ServiceSection';
+import Footer from '../../Components/Footer/Footer';
 
 const Home = () => {
     return (
